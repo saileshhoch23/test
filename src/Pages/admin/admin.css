@@ -1,0 +1,8 @@
+:where(.css-dev-only-do-not-override-zl9ks2).ant-input-outlined.ant-input-disabled, :where(.css-dev-only-do-not-override-zl9ks2).ant-input-outlined[disabled] {
+    color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: #d9d9d9;
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 1;
+}

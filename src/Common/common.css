@@ -1,0 +1,109 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+:root{
+    --gray:#686868 !important;
+    --gray00:#9e9898 !important;
+    --gray01:#c8c2c2 !important;
+    --white:#FFFF !important;
+    --black:black !important;
+    --bold:600 !important;
+    --bold1:500 !important;
+}
+
+.gray{
+    color: var(--gray) !important;
+}
+.white{
+    color: var(--white) !important;
+}
+.black{
+    color: var(--black) !important;
+}
+
+
+.bg-gray{
+    background-color: var(--gray) !important;
+}
+
+.bg-white{
+    background-color: var(--white) !important;
+}
+
+.bg-black{
+    background-color: var(--black) !important;
+}
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-btn-primary {
+    background: var(--gray) !important;
+}
+
+.bold01{
+    font-weight: var(--bold1) !important;
+}
+.boderrmove{
+  border: none !important;
+}
+.linkNone{
+    text-decoration: none !important;
+}
+:where(.css-dev-only-do-not-override-zl9ks2).ant-checkbox-checked .ant-checkbox-inner{
+background-color: var(--gray);
+border: var(--gray);
+}
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell-row-hover{
+    background-color: var(--gray00);
+    border: var(--gray00);
+}
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell{
+    background-color: var(--gray01);
+    border: var(--gray01);
+}
+:where(.css-dev-only-do-not-override-zl9ks2).ant-pagination .ant-pagination-item-active a {
+    background: var(--gray) !important;
+    color: var(--white) !important;
+    border-color: var(--gray01) !important;
+}
+:where(.css-dev-only-do-not-override-zl9ks2).ant-pagination .ant-pagination-item-active {
+    font-weight: 600;
+    background-color: #ffffff;
+    border-color:var(--gray01) !important;
+}
+
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-input-outlined:focus {
+    border-color:var(--gray) !important;
+    box-shadow: none !important;
+}
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-input-outlined:hover {
+    border-color: var(--gray) !important;
+    background-color: var(--white) !important;
+}
+
+.error{
+    color: red !important;
+    font-size: 12px;
+   font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-zl9ks2).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover{
+    background-color: var(--gray) !important;
+   color: var(--white) !important;
+}
+
+.h-90{
+    min-height: 90vh !important;
+    height: auto !important;
+}
+
+.offcanvas.offcanvas-end {
+    width: 500px !important;
+}

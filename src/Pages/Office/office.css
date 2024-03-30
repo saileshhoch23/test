@@ -1,0 +1,324 @@
+.add-order{
+    height: 70px !important;
+    background-color: var(--gray) !important;
+    color: var(--white) !important;
+    border-radius: 10px;
+}
+
+.add-order div p {
+    color:#fafafac7
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.payment-card{
+    cursor: pointer;
+}
+
+.user-payment{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray);
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.text-font{
+ font-weight: 600;
+}
+
+.amount-color{
+    color:#FF5E00;
+}
+
+
+.btn-white{
+    box-shadow: 5px 10px 20px 0px #D3D1D84D;
+    width: 38px;
+    height: 38px;
+   }
+   .payment-box{
+    text-align: center;
+    padding: 50px 0px;
+   }
+   .paymnet-box-main .btn-dark{
+    background-color: #686868;
+    width: 100%;
+    border-radius: 28.5px;
+    border-color: transparent;
+    box-shadow: 0px 10px 40px 0px #7A81BE29;
+  
+   }
+
+
+   .profile-form{
+    width: 100%;
+    min-height: 400px;
+}
+
+.profile-form  .nav-pills{
+  border: 1px solid #EEEEEE;
+  box-shadow: 15px 20px 45px 0px #E9E9E940;
+  padding: 7px 9px 7px 9px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.profile-form .nav-pills .nav-link{
+  font-size: 17px;
+  color: #475467;
+  width: 200px !important;
+  border-radius: 25px;
+}
+.profile-form .nav-pills .nav-link.active{
+  background-color: var(--gray);
+  border-radius: 25px;
+}
+
+
+.profile-form  .form-group {
+  margin-bottom: 16px;
+  position: relative;
+}
+.profile-form  input {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  background-color: transparent;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  height: 50px;
+  outline: none !important;
+  font-size: 17px;
+  color: #475467;
+  box-shadow: 15px 20px 45px 0px #E9E9E940 !important;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+.profile-form  label {
+  position: absolute;
+  top: 20px; 
+  left: 12px;
+  text-align: left;
+  display: inline-block;
+  padding: 0 4px;
+  height: 14px;
+  line-height: 12.13px;
+  font-size: 12px;
+  font-weight: 400;
+  background: #fff;
+  color: #9796A1;
+  margin: 0px auto;
+  cursor: text;
+  transition: all .15s ease-in-out;
+}
+.profile-form  input:hover, .profile-form  input:focus { border: 1px solid #EEEEEE; }
+
+.profile-form  input:valid + label, .profile-form  input:focus + label { 
+  top: -6px;
+  color: var(--balck);
+  font-weight: 500;
+}
+
+
+
+.profile-form a {
+  color: #686868;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.profile-form .nav-pills .nav-link.active{
+  color: #fff !important;
+}
+.profile-form .nav-pills .nav-link{
+  font-size: 17px;
+  color: #475467;
+  width: 130px;
+  border-radius: 25px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1280px){
+    .profile-form-box{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+.profilePictureContainerMain{
+  position: relative;
+  margin: auto;
+}
+
+.profilePictureContainer{ 
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePictureContainerMain label {
+  display: inline-block;
+  color: var(--white);
+  background: var(--gray);
+  border-radius: 8px;
+}
+.editImgBtn{
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 25px;
+  z-index: 10;
+}
+
+.profileInput{
+  display: none;
+}
+.marginMyAccount{
+  margin-top: 120px !important;
+}
+.radious-10{
+  border-radius: 20px !important;
+}
+
+.edit-label {
+  position: relative;
+    top: -16px;
+    left: 25px;
+
+}
+
+.orderin-bx {
+  border: 1px solid #dbdbdb;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1.375rem 1.5rem;
+}
+.orderin-bx .icon-bx {
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  margin-left: 0.5rem;
+  text-align: center;
+  width: 2rem;
+}
+.orderin-bx .icon-bx i {
+  color: #7e808c;
+  font-size: 14px;
+}
+.orderin-bx .text-primary{
+  color: #686868 !important;
+  font-size: 1.125rem;
+}
+.orderin-bx h4{
+  font-size: 1.125rem;
+}
+.orderin-bx span{
+  font-size: .875rem;
+  color: #777;
+}
+
+.order-tab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #686868;
+}
+.order-tab .nav-pills .nav-link{
+  color: #000;
+}
+.orderin-bx:hover {
+  background-color: #f8b6021a;
+  border-color: #686868;
+}
+.orderin-bx.active {
+  background-color: #f8b6021a;
+  border-color: #686868;
+}
+.orders-img img, .restro-review img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.orders-img img {
+  height: 3rem;
+  margin-right: 0.5rem;
+  width: 3rem;
+}
+.order-details-box h4{
+  font-size: 1.125rem;
+}
+.order-details-box span{
+  font-size: .875rem;
+  color: #777;
+}
+.order-menu.style-1 img {
+  border: 1px solid #686868;
+  border-radius: 0.625rem;
+  height: 5rem;
+  object-fit: contain;
+  width: 5rem;
+}
+.order-menu .more-btn p{
+  font-weight: 600;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    color: #686868;
+}
+
+hr {
+  background-color: currentColor;
+  border: 0;
+  color: inherit;
+  margin: 1rem 0;
+  opacity: .25;
+}
+hr:not([size]) {
+  height: 1px;
+}
+
+.orer-box{
+  height: 700px !important;
+  overflow-y: scroll !important;
+  padding-right: 15px !important;
+  
+}
+
+.orer-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.orer-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.orer-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.orer-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.text-decoration-line-through{
+  color: #FFB9A6 !important;
+ }
+ .office-edit-btn{
+  position: absolute;
+  top: -27px;
+  right: -72px;
+}

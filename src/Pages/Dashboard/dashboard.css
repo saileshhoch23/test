@@ -1,0 +1,197 @@
+body{
+    background-color: #F8F8F8 !important;
+}
+ .btn{
+    white-space: nowrap;
+}
+@media only screen and (max-width: 768px) {
+    .main-content{
+        left: 78px !important;
+        width: calc(100% - 78px) !important;
+    }
+    .home-content .bx-menu{
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+    }
+    .home-section {
+        position: relative;
+        background: #E4E9F7;
+        left: 285px;
+        width: calc(100% - 285px);
+        transition: all 0.5s ease;
+    }
+    .sidebar{
+        width: 285px;
+    }
+    .header{
+        padding: 0px !important;
+    }
+    .card-body p{
+        display: block !important;
+    }
+    .user{
+        text-align: center;
+    }
+    .card-header{
+        padding: 10px !important;
+        display: block;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .btn{
+        white-space: nowrap;
+        font-size: 14px;
+    }
+    .card-footer{
+        padding: 10px !important;
+    }
+  } 
+
+
+
+  .ContentWrap1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+    margin-top: 10px;
+   
+}
+.ContentWrap2{
+    width: 100%;
+    height: 425px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+    margin-top: 10px;
+    border-radius: 1rem !important;
+}
+.ContentWrap3{
+    width: 100%;
+    height: 425px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+    margin-top: 10px;
+    border-radius: 1rem !important;
+}
+.ContentWrap4{
+    width: 100%;
+    height: 425px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+    margin-top: 10px;
+    border-radius: 1rem !important;
+}
+.scrollX{ 
+    overflow-y: auto; 
+}
+ 
+.growthArrow{
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(0, 187, 0);
+}
+.downfallArrow{
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(238, 0, 32);
+}
+.compareText{
+    font-size: 13px;
+    margin-top: -20px;
+    font-weight: 400;
+    color: #888;
+}
+
+
+.Number-container{
+    width: 100%;
+    height: 100px;
+    background-color: #D9ECFF;
+    color: #004B9A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Number-container h1{
+    color: #004B9A;
+    margin-top: 10px;
+}
+.rowBottom{
+    border-bottom: 1px solid lightgray;
+}
+.rowBottom td p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ant-timeline-item-head-blue {
+    color:#26AE61;
+    border-color:#26AE61;
+    background-color:#26AE61;
+}
+
+.timelineHeading{
+    color: #aaa;
+}
+
+.timelineContent{
+    color: #3d464d;
+}
+
+.productName{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.reviewBy{
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: .7;
+}
+.reviewStar{
+    font-size: 20px;
+    color: rgb(255, 153, 0);
+} 
+
+.fontSize{
+    font-size:1.3em
+}
+/* job */
+
+
+/* job seeker */
+.card{
+    border-radius: 1rem !important; 
+    height: 100%;
+}
+  .task-box1{
+    position: relative;
+    overflow: hidden;
+    background-color: #686868;
+    color: #fff;
+    border-radius: 1rem !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.10);
+  }
+  .task-box1 h5 {
+    color: #fff;
+    text-align: center;
+  }
+
+  .task-box1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    right: -30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .2;
+  }
+  .ant-spin-dot-item {
+    background-color:#26AE61;
+  }
+  .ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content {
+    min-width: 500px;
+    width: 100%;
+}

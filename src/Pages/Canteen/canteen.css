@@ -1,0 +1,340 @@
+:where(.css-dev-only-do-not-override-zl9ks2).ant-switch.ant-switch-checked{
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.ant-switch .css-dev-only-do-not-override-zl9ks2 .ant-switch-checked .ant-switch-handle::before{
+    background-color:red !important;
+}
+
+.canteenmenu-form{
+    min-height: 480px;
+    width: 100%;
+}
+.canteenmenu-form  .nav-pills{
+  border: 1px solid #EEEEEE;
+  box-shadow: 15px 20px 45px 0px #E9E9E940;
+  padding: 7px 9px 7px 9px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.canteenmenu-form .nav-pills .nav-link{
+  font-size: 17px;
+  color: #475467;
+  width: 300px !important;
+  border-radius: 25px;
+}
+.canteenmenu-form .nav-pills .nav-link.active{
+  background-color: var(--gray);
+  border-radius: 25px;
+}
+
+.canteenmenu-form .login-form { 
+  width: 100%; 
+  text-align: center; 
+  margin: 32px auto 32px auto; 
+}
+
+.canteenmenu-form  .form-group {
+  margin-bottom: 16px;
+  position: relative;
+}
+.canteenmenu-form  input {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  background-color: transparent;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  height: 50px;
+  outline: none !important;
+  font-size: 17px;
+  color: #475467;
+  box-shadow: 15px 20px 45px 0px #E9E9E940 !important;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+.canteenmenu-form  label {
+  position: absolute;
+  top: 20px; 
+  left: 12px;
+  text-align: left;
+  display: inline-block;
+  padding: 0 4px;
+  height: 14px;
+  line-height: 12.13px;
+  font-size: 12px;
+  font-weight: 400;
+  background: #fff;
+  color: #9796A1;
+  margin: 0px auto;
+  cursor: text;
+  transition: all .15s ease-in-out;
+}
+.canteenmenu-form  input:hover, .canteenmenu-form  input:focus { border: 1px solid #EEEEEE; }
+
+.canteenmenu-form  input:valid + label, .canteenmenu-form  input:focus + label { 
+  top: -6px;
+  color: var(--balck);
+  font-weight: 500;
+}
+
+
+
+.canteenmenu-form a {
+  color: #686868;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.login-box .nav-pills .nav-link.active {
+  background-color: #fc5d35;
+  border-radius: 25px;
+}
+.canteenmenu-form .nav-pills .nav-link.active{
+  color: #fff !important;
+}
+.canteenmenu-form .nav-pills .nav-link{
+  font-size: 17px;
+  color: #475467;
+  width: 130px;
+  border-radius: 25px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width :768px){
+    .login-details, .login-form-box, .login-form{
+        padding: 15px !important;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 1280px){
+    .canteenmenu-form-box{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+.register-canteen-box .form-md { 
+  width: 100%; 
+  text-align: center; 
+  margin: 32px auto 32px auto; 
+}
+
+.register-canteen-box .form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+.register-canteen-box input, .form-select {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0px auto;
+  /* padding: 12px 16px 12px 16px; */
+  height: 50px;
+  outline: none !important;
+  font-size: 17px;
+  color: #475467;
+  box-shadow: 15px 20px 45px 0px #E9E9E940 !important;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+
+.register-canteen-box label {
+  position: absolute;
+  top: 20px; 
+  left: 12px;
+  text-align: left;
+  display: inline-block;
+  padding: 0 4px;
+  height: 14px;
+  line-height: 12.13px;
+  font-size: 12px;
+  font-weight: 400;
+  background: #fff;
+  color: #9796A1;
+  margin: 0px auto;
+  cursor: text;
+  z-index: 1;
+  transition: all .15s ease-in-out;
+}
+.register-canteen-box input:hover, .register-canteen-box input:focus { border: 1px solid #EEEEEE; }
+
+.register-canteen-box input:valid + label,.register-canteen-box .form-select:valid + label, .register-canteen-box input:focus + label, .register-canteen-box .form-select:focus + label { 
+  top: -6px;
+  color: #9796A1;
+}
+
+.register-canteen-box .form-md .btn-dark{
+  background-color: #686868;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 28.5px;
+  width: 100%;
+  height: 45px;
+  border-color: transparent;
+  margin-top: 150px;
+  letter-spacing: 2.2px;
+}
+.delete-btn{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background-color: white;
+  z-index: 10;
+}
+.uplod-btn{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.add-btn{
+  border: 1px solid #EEEEEE !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+  margin: 0px auto !important;
+  padding: 12px 16px 12px 16px !important;
+  height: 50px;
+  outline: none !important;
+  width: 100% !important;
+  height: 45px !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+.imgDtata{
+  position: relative !important;
+}
+
+.imageContainer {
+  position: relative !important;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.selected-option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+  z-index: 1000; /* Adjust z-index to ensure it appears above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better visibility */
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu .selected {
+  background-color: #007bff;
+  color: #fff;
+}
+.tamp-label{
+  top: -6px !important;
+}
+
+.option-img{
+  width: 50px !important;
+}
+
+
+.check-box .form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.check-box .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.check-box .form-group label {
+  position: relative;
+  cursor: pointer;
+  color: black !important;
+  background-color: transparent !important;
+}
+
+.check-box  .form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--gray);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.check-box .form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 12px; 
+  width: 6px;
+  height: 14px;
+  border: solid var(--gray);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.modal-bg .ant-modal .ant-modal-content  {
+  position: relative;
+   background-color: transparent !important; 
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+ padding: 0px !important;
+}
+
+.office-edit-btn{
+  position: absolute;
+  top: -27px;
+  right: -72px;
+}

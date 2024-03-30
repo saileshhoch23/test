@@ -1,0 +1,48 @@
+.contect-form{
+    width: 500px;
+}
+
+.swal-text {
+    padding: 0px 40px !important;
+}
+
+.register-canteen-box .textarea label {
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    text-align: left;
+    display: inline-block;
+    padding: 0 4px;
+    height: 14px;
+    line-height: 12.13px;
+    font-size: 12px;
+    font-weight: 400;
+    background: #fff;
+    color: #9796A1;
+    margin: 0px auto;
+    cursor: text;
+    z-index: 1;
+    transition: all .15s ease-in-out;
+}
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 17px !important;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 50px !important;
+    width: 100% !important;
+    outline: none;
+}
+
+.react-tel-input .flag-dropdown{
+    background-color: #ffff !important;
+    border: 1px solid #dee2e6 !important;
+}

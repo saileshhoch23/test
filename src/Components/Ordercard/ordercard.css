@@ -1,0 +1,114 @@
+.card-box{
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    border: 1px solid hsl(220, 17%, 93%) !important;
+    border-radius: 12px !important;
+    width: 415px;
+  }
+  .card-box:hover{
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.6) !important;
+  }
+   .user-details h5{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .user-img img{
+    width: 50px;
+}
+   .user-details p{
+    color: #475467;
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .user-details p small{
+    font-size: 12px;
+   }
+   .menu-list p{
+    color: #475467;
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .menu-total{
+    color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .menu-btns .btn-dark{
+    background-color: #686868;
+    border-radius: 4px;
+    border-color: transparent;
+   }
+   .menu-list2 p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .menu-list2 p small{
+    color: #686868;
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .menu-total2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+   }
+   .more-btn .btn-outline-dark{
+    border-radius: 50px;
+    width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+   }
+   .dropdown-toggle::after{
+    display: none !important;
+   }
+   .bg-orange{
+    background-color: #FE724C38 !important;
+   }
+   .bg-orange h5{
+    color: #3B3B3B;
+   }
+   .bg-orange p{
+    color: #3B3B3B;
+   }
+   .bg-orange .more-btn p{
+    color: #3B3B3B;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      font-weight: 400;
+   }
+
+   .del-label{
+    background-color: #E7F7EF;
+    border-radius: 0px 8px 0px 8px;
+    color: #0CAF60;
+    font-size: 10px;
+    padding: 10px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+   }
+   .more-btn .btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #000;
+    font-size: 24px;
+  }
+
+  .text-decoration-line-through{
+    color: #FFB9A6 !important;
+   }
+
+   .card-body .dropdown {
+    width: 10% !important;
+    position: relative;
+    color: white;
+}

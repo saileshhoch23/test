@@ -1,0 +1,21 @@
+.pagination-box{
+    padding: 15px;
+}
+.pagination-box .pagination{
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+.page-link.active, .active > .page-link {
+    z-index: 3;
+    color: #ffff !important;
+    background-color:var(--gray) !important;
+    border-color: var(--gray)!important;
+}
+.page-link{
+    color: #000;
+}
+.page-link:hover{
+    color: #ffff !important;
+    background-color:var(--gray) !important;
+    border-color: var(--gray) !important;
+}
