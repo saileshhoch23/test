@@ -21,3 +21,4 @@ jobs:
     - run: cd /var/www/html/test/actions-runner/_work/test/test
     - run: npm --force i
     - run: pm2 start npm --name "food-test-ck" -- start
+    - run: lsof -i -P -n | grep LISTEN
