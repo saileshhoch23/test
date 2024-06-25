@@ -3,7 +3,6 @@ pipeline {
     stage('Checkout') {
         when {
             allOf {
-                not { changeset pattern: "Jenkinsfile" }
                 branch 'main'
             }    
         }
