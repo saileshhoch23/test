@@ -1,6 +1,12 @@
 pipeline {
     agent any
-
+    stage('Checkout') {
+        when {
+            allOf {
+                not { changeset pattern: "Jenkinsfile" }
+                branch 'main'
+            }    
+        }
     stages {
         stage('Build') {
             steps {
