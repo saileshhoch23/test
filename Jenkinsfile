@@ -1,11 +1,5 @@
 pipeline {
     agent any
-    stage('Checkout') {
-        when {
-            allOf {
-                branch 'main'
-            }    
-        }
     stages {
         stage('Build') {
             steps {
@@ -23,5 +17,5 @@ pipeline {
             }
         }
     }
- }
+ 
 }
