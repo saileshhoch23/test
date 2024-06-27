@@ -3,9 +3,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd /var/www/html/test'
-                sh 'npm install --force' 
-                echo 'Building..'
+                dir('/var/www/html/test/') {
+                    echo 'Building..'
+                    sh 'cd /var/www/html/test'
+                    sh 'npm install --force' 
+                }
             }
         }
         stage('Test') {
@@ -15,9 +17,11 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'cd /var/www/html/test'
-                sh 'pm2 start npm --name "test-app" -- start' 
-                echo 'Deploying....'
+                dir('/var/www/html/test/') {
+                    sh 'cd /var/www/html/test'
+                    sh 'pm2 start npm --name "test-app" -- start' 
+                    echo 'Deploying....'
+                }
             }
         }
     }
