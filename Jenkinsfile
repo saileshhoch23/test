@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'npm install' 
                 echo 'Building..'
             }
         }
@@ -13,6 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                sh 'pm2 start npm --name "test-app" -- start' 
                 echo 'Deploying....'
             }
         }
