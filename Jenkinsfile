@@ -14,8 +14,6 @@ pipeline {
             steps {
                 dir('/var/www/html/test/') {
                     sh 'cd /var/www/html/test'
-                    sh ' pm2 stop test-app'
-                    sh ' pm2 delete test-app'
                     echo 'stop..'
                 }
             }
