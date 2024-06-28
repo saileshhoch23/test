@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 dir('/var/www/html/test/') {
-                    sh 'cd /var/www/html/test'
+                    sh 'cd /var/www/html/test/'
                     sh 'pm2 start npm --name "test-app" -- start' 
                     echo 'Deploying....'
                 }
