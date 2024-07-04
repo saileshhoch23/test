@@ -29,6 +29,7 @@ pipeline {
         }
     }
   environment {
+      
         EMAIL_TO = 'saileshhoch23@gmail.com'
     }  
 post {
